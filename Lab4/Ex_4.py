@@ -5,8 +5,8 @@ def inverse_element_2(a, p):
     return pow(a, p - 2, p)  # Обчислюємо a^(p-2) mod p
 
 # Тестування функції на прикладі a = 5 і n = 18
-a = 3
-n = 7
+a = 5
+n = 18
 
 # Перевіряємо, чи n є простим числом
 from sympy import isprime
