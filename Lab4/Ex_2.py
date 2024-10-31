@@ -22,8 +22,8 @@ def inverse_element(a, n):
         return None
 
 # Тестування функції на прикладі a = 5 і n = 18
-a = 3
-n = 7
+a = 5
+n = 18
 inverse = inverse_element(a, n)
 
 if inverse is not None:
